@@ -15,7 +15,6 @@ myAlerts = function () {
 
 myAlerts();
 
-
 //event handler
 function showNewAlerts() {
   var myButton = document.getElementById("button");
@@ -25,10 +24,23 @@ function showNewAlerts() {
 }
 showNewAlerts();
 
-
 //event listener
 var myGreyButton = document.getElementById("newButton");
 myGreyButton.addEventListener("click", function () {
   alert("THIS IS ALL ABOUT MY NEW BUTTON BABY");
 });
+
+//user input
+var myName = prompt("What's your name?");
+console.log("Hello" + myName);
+
+var cities = ["Detroit", "NY", "LA", "ATL", "DC"];
+console.log(cities[0]);
+console.log(cities.length);
+cities.push("Springfield");
+cities.shift();
+//console.log(cities.splice());
+cities.unshift("Tampa");
+console.log(cities.values);
+
 

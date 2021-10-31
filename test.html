@@ -14,10 +14,22 @@
     <div class="fill"><p>Something really should be said here!</p></div>
     <div class="title">This is a title</div>
     <div id="color">This is a div with the ID of color</div>
+    <form>
+      <input type="text" id="myInput" value="">
+      <button id="enterBTN" onclick="getUserText()">ENTER</button>
+    </form>
     </body>
-    <script src="basicFunctions.js"></script>
-    <script src="advancedFunctions.js"></script>
-    
+    <script>
+      function getUserText(){
+        var userInput = document.getElementById("myInput").value;
+        alert(userInput);
+      }
+    </script>
+    <!-- <script src="basicFunctions.js"></script>
+    <script src="advancedFunctions.js"></script> -->
+
   </body>
 </html>
+
+
  

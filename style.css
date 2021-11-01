@@ -1,0 +1,59 @@
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: #ccc;
+}
+
+.square {
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+}
+
+#red {
+  background-color: red;
+}
+
+#yellow {
+  background-color: yellow;
+}
+
+#blue {
+  background-color: blue;
+}
+
+#purple {
+  background-color: purple;
+}
+
+#majorSQR {
+  width: 80%;
+  height: 800px;
+  background-color: black;
+  background: url("image_1.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.minSquare {
+  width: 110px;
+  height: 150px;
+}
+
+#minSQR1 {
+  background-color: crimson;
+}
+
+#minSQR2 {
+  background-color: orchid;
+}
+
+#minSQR3 {
+  background-color: greenyellow;
+}
+
+#advertSQR {
+  height: 300px;
+  width: 200px;
+  background-color: orange;
+}

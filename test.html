@@ -7,29 +7,36 @@
     <title>Document</title>
   </head>
   <body>
-    <button id="button">Big Grey Button</button><br><br>
+    <button id="button">Big Grey Button</button><br /><br />
     <button id="newButton">NEW BUTTON</button>
     <div class="fill"><h1>This is a Headline</h1></div>
     <p>This is a paragraph? You coulda fooled me!</p>
     <div class="fill"><p>Something really should be said here!</p></div>
     <div class="title">This is a title</div>
     <div id="color">This is a div with the ID of color</div>
+
     <form>
-      <input type="text" id="myInput" value="">
+      <input type="text" id="myInput" value="" />
       <button id="enterBTN" onclick="getUserText()">ENTER</button>
     </form>
-    </body>
+    <br />
+    <input type="text" id="myInput2" value="" />
+    <button id="BTN2" onclick="getInfo()">GET INFO</button>
+
     <script>
-      function getUserText(){
+      function getUserText() {
         var userInput = document.getElementById("myInput").value;
+
         alert(userInput);
+        var num = parseInt(userInput);
+        alert(typeof num);
+      }
+      function getInfo() {
+        var info2 = document.getElementById("myInput2").value;
+        console.log(info2);
       }
     </script>
     <!-- <script src="basicFunctions.js"></script>
     <script src="advancedFunctions.js"></script> -->
-
   </body>
 </html>
-
-
- 
